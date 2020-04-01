@@ -135,7 +135,7 @@ def build_us_map(map_date):
         ))
 
     fig.update_layout(
-            title_text='{} Predictions of COVID-19 Cases'.format(map_date.strftime('%b %d,%Y')),
+            title_text='{} Predictions of COVID-19 Active Cases'.format(map_date.strftime('%b %d,%Y')),
             geo = dict(
                 scope='usa',
                 projection=go.layout.geo.Projection(type = 'albers usa'),
